@@ -9,9 +9,9 @@ from playwright.sync_api import sync_playwright
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Constants
-PITCH_URL = "https://pitch.com/v/thriving-springs-ai---investor-deck-2024-fuhzyf"  # Replace with actual link
+PITCH_URL = "https://pitch.com/v/t123123"  # Replace with actual link
 OUTPUT_DIR = "pitch_screenshots"
-EMAIL_INPUT = "kmehra@elevationcapital.com"
+EMAIL_INPUT = "test@gmail.com"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
